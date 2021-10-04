@@ -80,15 +80,13 @@ img {
     margin-top: 25px;
   }
 
-  #lezioni img {
-    width: 50%;
-    height: auto;
-    margin-top: 20px;
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right  {
+    width: 95vw;
+    margin: 30px 0 30px 0;
   }
 
-  #steps img {
-    width: calc(100% / 3);
-    height: auto;
-    margin-top: 20px;
-  }
 }
