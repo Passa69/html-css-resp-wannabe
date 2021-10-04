@@ -73,10 +73,22 @@ img {
 }
 
 /* RESPONSIVE */
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
   .row {
     width: 100%;
     margin-top: auto;
+    font-size: 0.8em;
   }
+
+  #lezioni img {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* #lezioni .right img {
+    width: 50%;
+    height: auto;
+  } */
 
 }
