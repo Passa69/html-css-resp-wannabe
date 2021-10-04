@@ -75,9 +75,9 @@ img {
 /* RESPONSIVE */
 @media screen and (max-width: 420px) {
   .row {
-    width: 100%;
-    margin-top: auto;
     font-size: 0.8em;
+    width: 100%;
+    margin-top: 25px;
   }
 
   #lezioni img {
@@ -86,9 +86,9 @@ img {
     margin-top: 20px;
   }
 
-  /* #lezioni .right img {
-    width: 50%;
+  #steps img {
+    width: calc(100% / 3);
     height: auto;
-  } */
-
+    margin-top: 20px;
+  }
 }
